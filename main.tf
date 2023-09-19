@@ -1,6 +1,6 @@
 provider "aws" {
-    region = "us-west-2"
-    profile = "default"
+  region  = "us-west-2"
+  profile = "default"
 }
 
 resource "aws_vpc" "test" {
